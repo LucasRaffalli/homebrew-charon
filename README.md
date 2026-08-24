@@ -1,4 +1,4 @@
-# Homebrew tap — Charon
+# Homebrew tap Charon
 
 Client SFTP/FTPS/FTP privé pour macOS.
 
@@ -13,5 +13,5 @@ jour suivantes s'installent automatiquement depuis l'app.
 Téléchargement direct et changelog : <https://release.lucasraffalli.com/charon/>
 
 > `Casks/charon.rb` est généré par `scripts/make-cask.sh` du dépôt
-> [charon](https://github.com/LucasRaffalli/charon) à chaque release —
+> [charon](https://github.com/LucasRaffalli/charon) à chaque release :
 > ne pas l'éditer à la main.

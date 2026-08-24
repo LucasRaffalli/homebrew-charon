@@ -1,13 +1,13 @@
 cask "charon" do
   version "1.1.0"
-  sha256 "98e0821084e6987fc26d866f027b4f28e98786705e60788268518cf2fae1be23"
+  sha256 "75f0412f07c49e1ac1e9ed77f7204ab6e3b32b3376cbedcf894848fd732f5709"
 
   url "https://release.lucasraffalli.com/charon/charon_#{version}_aarch64.dmg"
   name "Charon"
   desc "Client SFTP/FTPS/FTP privé pour macOS"
   homepage "https://release.lucasraffalli.com/charon/"
 
-  # L'app embarque son propre updater — brew upgrade n'a rien à faire.
+  # L'app embarque son propre updater : brew upgrade n'a rien à faire.
   auto_updates true
   depends_on arch: :arm64
 
