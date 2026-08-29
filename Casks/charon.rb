@@ -1,8 +1,8 @@
 cask "charon" do
-  version "1.1.1"
-  sha256 "1d1d60190d3402d3484a9407736bcdfd6f8d01445930ace6421889eae871037d"
+  version "1.2.0"
+  sha256 "b7c5febf47637680624d4695320378a6b032fe63bb068b8cc70bded52a123cb5"
 
-  url "https://release.lucasraffalli.com/charon/charon_#{version}_aarch64.dmg"
+  url "https://release.lucasraffalli.com/charon/Charon_#{version}_aarch64.dmg"
   name "Charon"
   desc "Client SFTP/FTPS/FTP privé pour macOS"
   homepage "https://release.lucasraffalli.com/charon/"
@@ -11,12 +11,12 @@ cask "charon" do
   auto_updates true
   depends_on arch: :arm64
 
-  app "charon.app"
+  app "Charon.app"
 
   # App non notarisée : sans ça, Gatekeeper affiche « charon est endommagé ».
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/charon.app"]
+                   args: ["-cr", "#{appdir}/Charon.app"]
   end
 
   uninstall quit: "com.aegis.charon"
