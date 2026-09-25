@@ -1,6 +1,6 @@
 cask "charon" do
-  version "1.2.7"
-  sha256 "014169397a2f582a4f29da68714eb439baeb7a2cb8cd91dd16b5a520cca3e055"
+  version "1.2.8"
+  sha256 "b6cb231c614b0cd4cc8069319ee4261354ca8debcb9aad5df2efd7c274e4b1ca"
 
   url "https://release.lucasraffalli.com/charon/Charon_#{version}_aarch64.dmg"
   name "Charon"
